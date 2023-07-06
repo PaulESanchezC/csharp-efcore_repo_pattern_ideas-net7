@@ -13,7 +13,8 @@ services.AddDbContext<ApplicationDbContext>(options =>
     options.EnableDetailedErrors(enableDetailedErrors);
     options.UseSqlServer(connectionString);
 });
-services.AddScoped<IWeatherForecastRepository, WeatherForecastRepository>();
+services.AddScoped<IWeatherForecastEfCoreRepository, WeatherForecastEfCoreRepository>();
+services.AddScoped<IDapperRepository, DapperWeatherForecastRepository>();
 
 var app = builder.Build();
 

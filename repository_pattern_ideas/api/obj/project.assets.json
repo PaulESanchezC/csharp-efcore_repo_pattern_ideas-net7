@@ -63,6 +63,19 @@
           }
         }
       },
+      "Dapper/2.0.143": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Fare/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -2442,6 +2455,24 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Dapper/2.0.143": {
+      "sha512": "Vh0U+Fins3IpS7APUlrzga3+1mswWngB5fZ0xj4w+FQR5JhJzA5uHV5rSepkahvmshNZUA0YcHtae9vFQpiVTw==",
+      "type": "package",
+      "path": "dapper/2.0.143",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.0.143.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
       ]
     },
     "Fare/2.1.1": {
@@ -7816,6 +7847,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoFixture >= 4.18.0",
+      "Dapper >= 2.0.143",
       "Microsoft.AspNetCore.OpenApi >= 7.0.8",
       "Microsoft.EntityFrameworkCore >= 7.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.8",
@@ -7872,6 +7904,10 @@
           "AutoFixture": {
             "target": "Package",
             "version": "[4.18.0, )"
+          },
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.0.143, )"
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",

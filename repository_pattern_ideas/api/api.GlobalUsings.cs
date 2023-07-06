@@ -1,8 +1,12 @@
 global using api.DataAccess;
-global using api.DataAccess.Repositories.WeatherForecasts;
+global using api.DataAccess.Repositories.DappersRepository;
+global using api.DataAccess.Repositories.EfCoreRepository;
 global using api.Models;
 global using AutoFixture;
+global using Dapper;
 global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.Data.SqlClient;
 global using Microsoft.EntityFrameworkCore;
-global using Microsoft.Extensions.Primitives;
 global using System.ComponentModel.DataAnnotations;
+global using System.Data;
+global using System.Data.SqlTypes;

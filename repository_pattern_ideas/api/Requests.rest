@@ -1,6 +1,9 @@
-@version = v1
-@endpoint = WeatherForecasts
-
-GET  https://localhost:7081/api/v1/WeatherForecasts HTTP/1.1
+## Dapper
+GET  https://localhost:7081/api/v1/Dappers HTTP/1.1
 ##
-POST https://localhost:7081/api/{{version}}/{{endpoint}}/1000 HTTP/1.1 
+POST https://localhost:7081/api/v1/Dappers/1000 HTTP/1.1 
+
+## Efcore
+GET  https://localhost:7081/api/v1/Efcores HTTP/1.1
+##
+POST https://localhost:7081/api/v1/Efcores/1000 HTTP/1.1 

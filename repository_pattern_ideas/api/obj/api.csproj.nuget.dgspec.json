@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[4.18.0, )"
             },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.143, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.8, )"
